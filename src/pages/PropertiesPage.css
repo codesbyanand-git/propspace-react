@@ -1,0 +1,55 @@
+.properties-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f8fafc;
+  min-height: calc(100vh - 150px);
+}
+
+.properties-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.properties-header-banner {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #ffffff;
+  padding: 3.5rem 0 3rem;
+  text-align: center;
+}
+
+.properties-page-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.properties-page-desc {
+  font-size: 1.05rem;
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main-content-wrap {
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .properties-header-banner {
+    padding: 2.5rem 1rem 2rem;
+  }
+
+  .properties-page-title {
+    font-size: 1.85rem;
+  }
+
+  .main-content-wrap {
+    padding-top: 1.5rem;
+    padding-bottom: 3.5rem;
+  }
+}
